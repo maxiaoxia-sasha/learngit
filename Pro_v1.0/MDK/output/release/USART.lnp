@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp.sp
+".\output\release\startup_hc32f460.o"
+".\output\release\system_hc32f460.o"
+".\output\release\main.o"
+".\output\release\hc32f460_utility.o"
+".\output\release\hc32f460_sram.o"
+".\output\release\hc32f460_icg.o"
+".\output\release\hc32f460_gpio.o"
+".\output\release\hc32f460_exint_nmi_swi.o"
+".\output\release\hc32f460_clk.o"
+".\output\release\hc32f460_efm.o"
+".\output\release\hc32f460_interrupts.o"
+".\output\release\hc32f460_pwc.o"
+".\output\release\hc32f460_usart.o"
+".\output\release\led.o"
+".\output\release\usart.o"
+".\output\release\key.o"
+--strict --scatter ".\output\release\USART.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info
+--list ".\output\release\USART.map" -o .\output\release\USART.axf

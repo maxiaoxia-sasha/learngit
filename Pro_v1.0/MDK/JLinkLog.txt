@@ -1,0 +1,126 @@
+T5058 000:191.897   SEGGER J-Link V7.82 Log File
+T5058 000:191.994   DLL Compiled: Oct 13 2022 13:32:51
+T5058 000:192.019   Logging started @ 2024-11-25 03:05
+T5058 000:192.043 - 192.054ms
+T5058 000:192.072 JLINK_SetWarnOutHandler(...)
+T5058 000:192.095 - 0.034ms
+T5058 000:192.120 JLINK_OpenEx(...)
+T5058 000:193.441   Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+T5058 000:193.827   Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+T5058 000:194.152   Decompressing FW timestamp took 271 us
+T5058 000:200.838   Hardware: V9.40
+T5058 000:200.886   S/N: 81480416
+T5058 000:200.916   OEM: SEGGER
+T5058 000:200.945   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T5058 000:202.333   TELNET listener socket opened on port 19021
+T5058 000:202.527   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T5058 000:202.684   WEBSRV Webserver running on local port 19080
+T5058 000:210.810 - 18.723ms returns "O.K."
+T5058 000:210.880 JLINK_GetEmuCaps()
+T5058 000:210.907 - 0.039ms returns 0xB9FF7BBF
+T5058 000:210.937 JLINK_TIF_GetAvailable(...)
+T5058 000:211.130 - 0.206ms
+T5058 000:211.157 JLINK_SetErrorOutHandler(...)
+T5058 000:211.179 - 0.034ms
+T5058 000:211.233 JLINK_ExecCommand("ProjectFile = "D:\Record01\USART_1.4\MDK\JLinkSettings.ini"", ...). 
+T5058 000:221.409   Device "CORTEX-M4" selected.
+T5058 000:222.828 - 11.617ms returns 0x00
+T5058 000:222.872 JLINK_ExecCommand("Device = HC32F460JETA", ...). 
+T5058 000:223.101   Device "HC32F460XE" selected.
+T5058 000:224.039 - 1.159ms returns 0x00
+T5058 000:224.070 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5058 000:224.094 - 0.011ms returns 0x01
+T5058 000:224.117 JLINK_GetHardwareVersion()
+T5058 000:224.139 - 0.032ms returns 94000
+T5058 000:224.163 JLINK_GetDLLVersion()
+T5058 000:224.185 - 0.032ms returns 78200
+T5058 000:224.207 JLINK_GetOEMString(...)
+T5058 000:224.229 JLINK_GetFirmwareString(...)
+T5058 000:224.250 - 0.031ms
+T5058 000:224.275 JLINK_GetDLLVersion()
+T5058 000:224.296 - 0.032ms returns 78200
+T5058 000:224.322 JLINK_GetCompileDateTime()
+T5058 000:224.344 - 0.032ms
+T5058 000:224.367 JLINK_GetFirmwareString(...)
+T5058 000:224.388 - 0.032ms
+T5058 000:224.411 JLINK_GetHardwareVersion()
+T5058 000:224.433 - 0.032ms returns 94000
+T5058 000:224.455 JLINK_GetSN()
+T5058 000:224.476 - 0.031ms returns 81480416
+T5058 000:224.498 JLINK_GetOEMString(...)
+T5058 000:224.523 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T5058 000:225.130 - 0.619ms returns 0x00
+T5058 000:225.155 JLINK_HasError()
+T5058 000:225.186 JLINK_SetSpeed(5000)
+T5058 000:225.306 - 0.131ms
+T5058 000:225.562 JLINK_HasError()
+T5058 000:225.591 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5058 000:225.614 - 0.033ms returns JLINKARM_RESET_TYPE_NORMAL
+T5058 000:225.637 JLINK_Reset()
+T5058 000:329.899   Failed to attach to CPU. Trying connect under reset.
+T5058 000:331.021   Found SW-DP with ID 0x0BC11477
+T5058 000:332.394   SWD speed too high. Reduced from 4000 kHz to 2700 kHz for stability
+T5058 000:333.888   Old FW that does not support reading DPIDR via DAP jobs
+T5058 000:334.814   DPv0 detected
+T5058 000:334.931   CoreSight SoC-400 or earlier
+T5058 000:335.031   Scanning AP map to find all available APs
+T5058 000:335.809   AP[1]: Stopped AP scan as end of AP map has been reached
+T5058 000:335.918   AP[0]: AHB-AP (IDR: 0x04770031)
+T5058 000:336.024   Iterating through AP map to find AHB-AP to use
+T5058 000:337.144   AP[0]: Core found
+T5058 000:337.258   AP[0]: AHB-AP ROM base: 0xE00FF000
+T5058 000:337.882   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T5058 000:337.997   Found Cortex-M0 r0p1, Little endian.
+T5058 000:338.144   Identified core does not match configuration. (Found: Cortex-M0, Configured: Cortex-M4)
+T5058 000:338.624   -- Max. mem block: 0x00010E38
+T5058 000:338.986   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5058 000:339.482   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5058 000:339.926   CPU_ReadMem(4 bytes @ 0xE0002000)
+T5058 000:340.379   FPUnit: 4 code (BP) slots and 0 literal slots
+T5058 000:340.482   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5058 000:340.940   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5058 000:341.471   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5058 000:341.983   CPU_WriteMem(4 bytes @ 0xE0001000)
+T5058 000:342.470   CoreSight components:
+T5058 000:342.587   ROMTbl[0] @ E00FF000
+T5058 000:342.693   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T5058 000:343.632   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T5058 000:344.298   [0][0]: E000E000 CID B105E00D PID 000BB008 SCS
+T5058 000:344.414   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T5058 000:345.142   [0][1]: E0001000 CID B105E00D PID 000BB00A DWT
+T5058 000:345.318   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T5058 000:346.002   [0][2]: E0002000 CID B105E00D PID 000BB00B FPB
+T5058 000:346.307   CPU is running
+T5058 000:346.433   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5058 000:346.903   CPU is running
+T5058 000:347.052   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5058 000:347.527   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T5058 000:348.131   Reset: Reset device via AIRCR.SYSRESETREQ.
+T5058 000:348.224   CPU is running
+T5058 000:348.301   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T5058 000:401.994   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5058 000:402.658   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5058 000:403.143   CPU is running
+T5058 000:403.248   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5058 000:403.725   CPU is running
+T5058 000:403.829   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5058 000:410.238   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5058 000:413.781   CPU_WriteMem(4 bytes @ 0xE0002000)
+T5058 000:414.334   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5058 000:414.893   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5058 000:415.393   CPU_WriteMem(4 bytes @ 0xE0001000)
+T5058 000:415.877 - 190.275ms
+T5058 000:415.970 JLINK_GetId()
+T5058 000:416.369 - 0.438ms returns 0x0BC11477
+T5058 000:429.280 JLINK_GetFirmwareString(...)
+T5058 000:429.328 - 0.061ms
+T3954 009:489.881 Looking for J-Link GUI Server exe at: E:\software\Keil5\ARM\Segger\JLinkGUIServer.exe
+T3954 009:490.700 Looking for J-Link GUI Server exe at: E:\software\j-link\JLinkGUIServer.exe
+T3954 009:792.684 Failed to connect to J-Link GUI Server.
+T5058 012:427.792 JLINK_Close()
+T5058 012:428.083   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5058 012:428.450   CPU_WriteMem(4 bytes @ 0xE0001000)
+T5058 012:428.834   CPU_WriteMem(4 bytes @ 0xE0001004)
+T5058 012:447.810 - 20.055ms
+T5058 012:447.861   
+T5058 012:447.887   Closed

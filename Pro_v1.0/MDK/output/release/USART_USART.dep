@@ -1,0 +1,295 @@
+Dependencies for Project 'USART', Target 'USART': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_hc32f460.s)(0x60E7E86F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"-o .\output\release\startup_hc32f460.o --depend .\output\release\startup_hc32f460.d)
+F (..\mcu\common\system_hc32f460.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\system_hc32f460.o --omf_browse .\output\release\system_hc32f460.crf --depend .\output\release\system_hc32f460.d)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+F (..\source\main.c)(0x673EEA7D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (..\mcu\common\hc32_ddl.h)(0x60E7E853)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (..\driver\inc\hc32f460_efm.h)(0x609625AE)
+I (..\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (..\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (..\driver\inc\hc32f460_icg.h)(0x609625AE)
+I (..\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (..\driver\inc\hc32f460_keyscan.h)(0x609625AE)
+I (..\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (..\driver\inc\hc32f460_sram.h)(0x609625AE)
+I (..\driver\inc\hc32f460_usart.h)(0x609625AE)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\hardware\led.h)(0x610DFEF3)
+I (..\hardware\usart.h)(0x673D8696)
+I (..\hardware\key.h)(0x673D9A86)
+F (..\driver\src\hc32f460_utility.c)(0x610E16FC)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_utility.o --omf_browse .\output\release\hc32f460_utility.crf --depend .\output\release\hc32f460_utility.d)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_sram.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_sram.o --omf_browse .\output\release\hc32f460_sram.crf --depend .\output\release\hc32f460_sram.d)
+I (..\driver\inc\hc32f460_sram.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_icg.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_icg.o --omf_browse .\output\release\hc32f460_icg.crf --depend .\output\release\hc32f460_icg.d)
+I (..\driver\inc\hc32f460_icg.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+F (..\driver\src\hc32f460_gpio.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_gpio.o --omf_browse .\output\release\hc32f460_gpio.crf --depend .\output\release\hc32f460_gpio.d)
+I (..\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_exint_nmi_swi.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_exint_nmi_swi.o --omf_browse .\output\release\hc32f460_exint_nmi_swi.crf --depend .\output\release\hc32f460_exint_nmi_swi.d)
+I (..\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_clk.c)(0x60AEEBDD)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_clk.o --omf_browse .\output\release\hc32f460_clk.crf --depend .\output\release\hc32f460_clk.d)
+I (..\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_efm.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_efm.o --omf_browse .\output\release\hc32f460_efm.crf --depend .\output\release\hc32f460_efm.d)
+I (..\driver\inc\hc32f460_efm.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_interrupts.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_interrupts.o --omf_browse .\output\release\hc32f460_interrupts.crf --depend .\output\release\hc32f460_interrupts.d)
+I (..\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_pwc.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_pwc.o --omf_browse .\output\release\hc32f460_pwc.crf --depend .\output\release\hc32f460_pwc.d)
+I (..\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\driver\src\hc32f460_usart.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\hc32f460_usart.o --omf_browse .\output\release\hc32f460_usart.crf --depend .\output\release\hc32f460_usart.d)
+I (..\driver\inc\hc32f460_usart.h)(0x609625AE)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\Readme.txt)(0x609625A9)()
+F (..\hardware\led.c)(0x673ECA4B)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\led.o --omf_browse .\output\release\led.crf --depend .\output\release\led.d)
+I (..\hardware\led.h)(0x610DFEF3)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (..\driver\inc\hc32f460_efm.h)(0x609625AE)
+I (..\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (..\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (..\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (..\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (..\driver\inc\hc32f460_sram.h)(0x609625AE)
+F (..\hardware\usart.c)(0x673ECA1A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\usart.o --omf_browse .\output\release\usart.crf --depend .\output\release\usart.d)
+I (..\hardware\usart.h)(0x673D8696)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (..\driver\inc\hc32f460_efm.h)(0x609625AE)
+I (..\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (..\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (..\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (..\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (..\driver\inc\hc32f460_sram.h)(0x609625AE)
+I (..\driver\inc\hc32f460_usart.h)(0x609625AE)
+I (..\hardware\key.h)(0x673D9A86)
+I (..\mcu\common\hc32_ddl.h)(0x60E7E853)
+I (..\driver\inc\hc32f460_icg.h)(0x609625AE)
+I (..\driver\inc\hc32f460_keyscan.h)(0x609625AE)
+F (..\hardware\key.c)(0x673D9A86)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 -Otime --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\hardware\ --diag_suppress=186,66-I.\RTE\_USART-IE:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software\Keil5\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -DUSE_STDPERIPH_DRIVER-o .\output\release\key.o --omf_browse .\output\release\key.crf --depend .\output\release\key.d)
+I (..\hardware\key.h)(0x673D9A86)
+I (..\mcu\common\hc32_ddl.h)(0x60E7E853)
+I (..\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\software\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (E:\software\Keil5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\mcu\common\hc32f460.h)(0x60AEEBDE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (..\mcu\common\system_hc32f460.h)(0x609625AE)
+I (..\source\ddl_config.h)(0x610DFAE2)
+I (..\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (..\driver\inc\hc32f460_efm.h)(0x609625AE)
+I (..\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (..\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (..\driver\inc\hc32f460_icg.h)(0x609625AE)
+I (..\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (..\driver\inc\hc32f460_keyscan.h)(0x609625AE)
+I (..\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (..\driver\inc\hc32f460_sram.h)(0x609625AE)
+I (..\driver\inc\hc32f460_usart.h)(0x609625AE)
+I (..\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (E:\software\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)

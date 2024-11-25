@@ -1,0 +1,13 @@
+.\output\release\system_hc32f460.o: ..\mcu\common\system_hc32f460.c
+.\output\release\system_hc32f460.o: ..\mcu\common\hc32_common.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\release\system_hc32f460.o: ..\mcu\common\hc32f460.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\release\system_hc32f460.o: E:\software\Keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\output\release\system_hc32f460.o: ..\mcu\common\system_hc32f460.h

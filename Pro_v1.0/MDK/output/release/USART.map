@@ -1,0 +1,298 @@
+Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000281
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00002bfc, Max: 0x00080000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00002bd8, Max: 0x00080000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x00000280   Data   RO            3    RESET               startup_hc32f460.o
+    0x00000280   0x00000280   0x00000008   Code   RO         2591  * !!!main             c_w.l(__main.o)
+    0x00000288   0x00000288   0x00000034   Code   RO         2758    !!!scatter          c_w.l(__scatter.o)
+    0x000002bc   0x000002bc   0x0000001a   Code   RO         2760    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x000002d6   0x000002d6   0x00000002   PAD
+    0x000002d8   0x000002d8   0x0000001c   Code   RO         2762    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x000002f4   0x000002f4   0x00000002   Code   RO         2630    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x000002f6   0x000002f6   0x00000004   Code   RO         2642    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2645    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2648    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2650    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2652    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2655    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2657    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2659    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2661    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2663    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2665    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2667    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2669    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2671    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2673    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2675    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2679    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2681    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2683    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000000   Code   RO         2685    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x000002fa   0x000002fa   0x00000002   Code   RO         2686    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
+    0x000002fc   0x000002fc   0x00000002   Code   RO         2712    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2739    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2741    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2743    .ARM.Collect$$libshutdown$$00000006  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2746    .ARM.Collect$$libshutdown$$00000009  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2749    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2751    .ARM.Collect$$libshutdown$$0000000E  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000000   Code   RO         2754    .ARM.Collect$$libshutdown$$00000011  c_w.l(libshutdown2.o)
+    0x000002fe   0x000002fe   0x00000002   Code   RO         2755    .ARM.Collect$$libshutdown$$00000012  c_w.l(libshutdown2.o)
+    0x00000300   0x00000300   0x00000000   Code   RO         2595    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x00000300   0x00000300   0x00000000   Code   RO         2601    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x00000300   0x00000300   0x00000006   Code   RO         2613    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x00000306   0x00000306   0x00000000   Code   RO         2603    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x00000306   0x00000306   0x00000004   Code   RO         2604    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x0000030a   0x0000030a   0x00000000   Code   RO         2606    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x0000030a   0x0000030a   0x00000008   Code   RO         2607    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x00000312   0x00000312   0x00000002   Code   RO         2634    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x00000314   0x00000314   0x00000000   Code   RO         2688    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x00000314   0x00000314   0x00000004   Code   RO         2689    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x00000318   0x00000318   0x00000006   Code   RO         2690    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x0000031e   0x0000031e   0x00000002   PAD
+    0x00000320   0x00000320   0x00000074   Code   RO            4    .text               startup_hc32f460.o
+    0x00000394   0x00000394   0x00000002   Code   RO         2583    .text               c_w.l(use_no_semi_2.o)
+    0x00000396   0x00000396   0x0000004e   Code   RO         2587    .text               c_w.l(rt_memclr_w.o)
+    0x000003e4   0x000003e4   0x00000006   Code   RO         2589    .text               c_w.l(heapauxi.o)
+    0x000003ea   0x000003ea   0x00000002   Code   RO         2593    .text               c_w.l(use_no_semi.o)
+    0x000003ec   0x000003ec   0x00000012   Code   RO         2619    .text               c_w.l(exit.o)
+    0x000003fe   0x000003fe   0x00000002   Code   RO         2437    i.Usart1RxIrqCallback  usart.o
+    0x00000400   0x00000400   0x00000020   Data   RO          327    .ARM.__AT_0x00000400  hc32f460_icg.o
+    0x00000420   0x00000420   0x000000ee   Code   RO         2585    .text               c_w.l(lludivv7m.o)
+    0x0000050e   0x0000050e   0x0000004a   Code   RO         2617    .text               c_w.l(sys_stackheap_outer.o)
+    0x00000558   0x00000558   0x00000008   Code   RO         2631    .text               c_w.l(libspace.o)
+    0x00000560   0x00000560   0x00000008   Code   RO          949    i.BusFault_Handler  hc32f460_interrupts.o
+    0x00000568   0x00000568   0x00000078   Code   RO          555    i.CLK_GetFlagStatus  hc32f460_clk.o
+    0x000005e0   0x000005e0   0x000000d4   Code   RO           84    i.CLK_Init          main.o
+    0x000006b4   0x000006b4   0x00000094   Code   RO          563    i.CLK_MpllCmd       hc32f460_clk.o
+    0x00000748   0x00000748   0x00000090   Code   RO          564    i.CLK_MpllConfig    hc32f460_clk.o
+    0x000007d8   0x000007d8   0x00000040   Code   RO          571    i.CLK_SetPllSource  hc32f460_clk.o
+    0x00000818   0x00000818   0x000000ec   Code   RO          572    i.CLK_SetSysClkSource  hc32f460_clk.o
+    0x00000904   0x00000904   0x000000fc   Code   RO          574    i.CLK_SysClkConfig  hc32f460_clk.o
+    0x00000a00   0x00000a00   0x000000c8   Code   RO          581    i.CLK_XtalCmd       hc32f460_clk.o
+    0x00000ac8   0x00000ac8   0x00000064   Code   RO          582    i.CLK_XtalConfig    hc32f460_clk.o
+    0x00000b2c   0x00000b2c   0x0000002c   Code   RO          173    i.Ddl_Delay1ms      hc32f460_utility.o
+    0x00000b58   0x00000b58   0x00000008   Code   RO          950    i.DebugMon_Handler  hc32f460_interrupts.o
+    0x00000b60   0x00000b60   0x00000018   Code   RO          797    i.EFM_Lock          hc32f460_efm.o
+    0x00000b78   0x00000b78   0x00000014   Code   RO          806    i.EFM_SetLatency    hc32f460_efm.o
+    0x00000b8c   0x00000b8c   0x00000014   Code   RO          811    i.EFM_Unlock        hc32f460_efm.o
+    0x00000ba0   0x00000ba0   0x00000008   Code   RO          951    i.HardFault_Handler  hc32f460_interrupts.o
+    0x00000ba8   0x00000ba8   0x00000014   Code   RO          952    i.IRQ000_Handler    hc32f460_interrupts.o
+    0x00000bbc   0x00000bbc   0x00000014   Code   RO          953    i.IRQ001_Handler    hc32f460_interrupts.o
+    0x00000bd0   0x00000bd0   0x00000014   Code   RO          954    i.IRQ002_Handler    hc32f460_interrupts.o
+    0x00000be4   0x00000be4   0x00000014   Code   RO          955    i.IRQ003_Handler    hc32f460_interrupts.o
+    0x00000bf8   0x00000bf8   0x00000014   Code   RO          956    i.IRQ004_Handler    hc32f460_interrupts.o
+    0x00000c0c   0x00000c0c   0x00000014   Code   RO          957    i.IRQ005_Handler    hc32f460_interrupts.o
+    0x00000c20   0x00000c20   0x00000014   Code   RO          958    i.IRQ006_Handler    hc32f460_interrupts.o
+    0x00000c34   0x00000c34   0x00000014   Code   RO          959    i.IRQ007_Handler    hc32f460_interrupts.o
+    0x00000c48   0x00000c48   0x00000014   Code   RO          960    i.IRQ008_Handler    hc32f460_interrupts.o
+    0x00000c5c   0x00000c5c   0x00000014   Code   RO          961    i.IRQ009_Handler    hc32f460_interrupts.o
+    0x00000c70   0x00000c70   0x00000014   Code   RO          962    i.IRQ010_Handler    hc32f460_interrupts.o
+    0x00000c84   0x00000c84   0x00000014   Code   RO          963    i.IRQ011_Handler    hc32f460_interrupts.o
+    0x00000c98   0x00000c98   0x00000014   Code   RO          964    i.IRQ012_Handler    hc32f460_interrupts.o
+    0x00000cac   0x00000cac   0x00000014   Code   RO          965    i.IRQ013_Handler    hc32f460_interrupts.o
+    0x00000cc0   0x00000cc0   0x00000014   Code   RO          966    i.IRQ014_Handler    hc32f460_interrupts.o
+    0x00000cd4   0x00000cd4   0x00000014   Code   RO          967    i.IRQ015_Handler    hc32f460_interrupts.o
+    0x00000ce8   0x00000ce8   0x00000014   Code   RO          968    i.IRQ016_Handler    hc32f460_interrupts.o
+    0x00000cfc   0x00000cfc   0x00000014   Code   RO          969    i.IRQ017_Handler    hc32f460_interrupts.o
+    0x00000d10   0x00000d10   0x00000014   Code   RO          970    i.IRQ018_Handler    hc32f460_interrupts.o
+    0x00000d24   0x00000d24   0x00000014   Code   RO          971    i.IRQ019_Handler    hc32f460_interrupts.o
+    0x00000d38   0x00000d38   0x00000014   Code   RO          972    i.IRQ020_Handler    hc32f460_interrupts.o
+    0x00000d4c   0x00000d4c   0x00000014   Code   RO          973    i.IRQ021_Handler    hc32f460_interrupts.o
+    0x00000d60   0x00000d60   0x00000014   Code   RO          974    i.IRQ022_Handler    hc32f460_interrupts.o
+    0x00000d74   0x00000d74   0x00000014   Code   RO          975    i.IRQ023_Handler    hc32f460_interrupts.o
+    0x00000d88   0x00000d88   0x00000014   Code   RO          976    i.IRQ024_Handler    hc32f460_interrupts.o
+    0x00000d9c   0x00000d9c   0x00000014   Code   RO          977    i.IRQ025_Handler    hc32f460_interrupts.o
+    0x00000db0   0x00000db0   0x00000014   Code   RO          978    i.IRQ026_Handler    hc32f460_interrupts.o
+    0x00000dc4   0x00000dc4   0x00000014   Code   RO          979    i.IRQ027_Handler    hc32f460_interrupts.o
+    0x00000dd8   0x00000dd8   0x00000014   Code   RO          980    i.IRQ028_Handler    hc32f460_interrupts.o
+    0x00000dec   0x00000dec   0x00000014   Code   RO          981    i.IRQ029_Handler    hc32f460_interrupts.o
+    0x00000e00   0x00000e00   0x00000014   Code   RO          982    i.IRQ030_Handler    hc32f460_interrupts.o
+    0x00000e14   0x00000e14   0x00000014   Code   RO          983    i.IRQ031_Handler    hc32f460_interrupts.o
+    0x00000e28   0x00000e28   0x00000018   Code   RO          984    i.IRQ032_Handler    hc32f460_interrupts.o
+    0x00000e40   0x00000e40   0x00000018   Code   RO          985    i.IRQ033_Handler    hc32f460_interrupts.o
+    0x00000e58   0x00000e58   0x00000018   Code   RO          986    i.IRQ034_Handler    hc32f460_interrupts.o
+    0x00000e70   0x00000e70   0x00000018   Code   RO          987    i.IRQ035_Handler    hc32f460_interrupts.o
+    0x00000e88   0x00000e88   0x00000018   Code   RO          988    i.IRQ036_Handler    hc32f460_interrupts.o
+    0x00000ea0   0x00000ea0   0x00000018   Code   RO          989    i.IRQ037_Handler    hc32f460_interrupts.o
+    0x00000eb8   0x00000eb8   0x00000018   Code   RO          990    i.IRQ038_Handler    hc32f460_interrupts.o
+    0x00000ed0   0x00000ed0   0x00000018   Code   RO          991    i.IRQ039_Handler    hc32f460_interrupts.o
+    0x00000ee8   0x00000ee8   0x00000018   Code   RO          992    i.IRQ040_Handler    hc32f460_interrupts.o
+    0x00000f00   0x00000f00   0x00000018   Code   RO          993    i.IRQ041_Handler    hc32f460_interrupts.o
+    0x00000f18   0x00000f18   0x00000018   Code   RO          994    i.IRQ042_Handler    hc32f460_interrupts.o
+    0x00000f30   0x00000f30   0x00000018   Code   RO          995    i.IRQ043_Handler    hc32f460_interrupts.o
+    0x00000f48   0x00000f48   0x00000018   Code   RO          996    i.IRQ044_Handler    hc32f460_interrupts.o
+    0x00000f60   0x00000f60   0x00000018   Code   RO          997    i.IRQ045_Handler    hc32f460_interrupts.o
+    0x00000f78   0x00000f78   0x00000018   Code   RO          998    i.IRQ046_Handler    hc32f460_interrupts.o
+    0x00000f90   0x00000f90   0x00000018   Code   RO          999    i.IRQ047_Handler    hc32f460_interrupts.o
+    0x00000fa8   0x00000fa8   0x00000018   Code   RO         1000    i.IRQ048_Handler    hc32f460_interrupts.o
+    0x00000fc0   0x00000fc0   0x00000018   Code   RO         1001    i.IRQ049_Handler    hc32f460_interrupts.o
+    0x00000fd8   0x00000fd8   0x00000018   Code   RO         1002    i.IRQ050_Handler    hc32f460_interrupts.o
+    0x00000ff0   0x00000ff0   0x00000018   Code   RO         1003    i.IRQ051_Handler    hc32f460_interrupts.o
+    0x00001008   0x00001008   0x00000018   Code   RO         1004    i.IRQ052_Handler    hc32f460_interrupts.o
+    0x00001020   0x00001020   0x00000018   Code   RO         1005    i.IRQ053_Handler    hc32f460_interrupts.o
+    0x00001038   0x00001038   0x00000018   Code   RO         1006    i.IRQ054_Handler    hc32f460_interrupts.o
+    0x00001050   0x00001050   0x00000018   Code   RO         1007    i.IRQ055_Handler    hc32f460_interrupts.o
+    0x00001068   0x00001068   0x00000018   Code   RO         1008    i.IRQ056_Handler    hc32f460_interrupts.o
+    0x00001080   0x00001080   0x00000018   Code   RO         1009    i.IRQ057_Handler    hc32f460_interrupts.o
+    0x00001098   0x00001098   0x00000018   Code   RO         1010    i.IRQ058_Handler    hc32f460_interrupts.o
+    0x000010b0   0x000010b0   0x00000018   Code   RO         1011    i.IRQ059_Handler    hc32f460_interrupts.o
+    0x000010c8   0x000010c8   0x00000018   Code   RO         1012    i.IRQ060_Handler    hc32f460_interrupts.o
+    0x000010e0   0x000010e0   0x00000018   Code   RO         1013    i.IRQ061_Handler    hc32f460_interrupts.o
+    0x000010f8   0x000010f8   0x00000018   Code   RO         1014    i.IRQ062_Handler    hc32f460_interrupts.o
+    0x00001110   0x00001110   0x00000018   Code   RO         1015    i.IRQ063_Handler    hc32f460_interrupts.o
+    0x00001128   0x00001128   0x00000018   Code   RO         1016    i.IRQ064_Handler    hc32f460_interrupts.o
+    0x00001140   0x00001140   0x00000018   Code   RO         1017    i.IRQ065_Handler    hc32f460_interrupts.o
+    0x00001158   0x00001158   0x00000018   Code   RO         1018    i.IRQ066_Handler    hc32f460_interrupts.o
+    0x00001170   0x00001170   0x00000018   Code   RO         1019    i.IRQ067_Handler    hc32f460_interrupts.o
+    0x00001188   0x00001188   0x00000018   Code   RO         1020    i.IRQ068_Handler    hc32f460_interrupts.o
+    0x000011a0   0x000011a0   0x00000018   Code   RO         1021    i.IRQ069_Handler    hc32f460_interrupts.o
+    0x000011b8   0x000011b8   0x00000018   Code   RO         1022    i.IRQ070_Handler    hc32f460_interrupts.o
+    0x000011d0   0x000011d0   0x00000018   Code   RO         1023    i.IRQ071_Handler    hc32f460_interrupts.o
+    0x000011e8   0x000011e8   0x00000018   Code   RO         1024    i.IRQ072_Handler    hc32f460_interrupts.o
+    0x00001200   0x00001200   0x00000018   Code   RO         1025    i.IRQ073_Handler    hc32f460_interrupts.o
+    0x00001218   0x00001218   0x00000018   Code   RO         1026    i.IRQ074_Handler    hc32f460_interrupts.o
+    0x00001230   0x00001230   0x00000018   Code   RO         1027    i.IRQ075_Handler    hc32f460_interrupts.o
+    0x00001248   0x00001248   0x00000018   Code   RO         1028    i.IRQ076_Handler    hc32f460_interrupts.o
+    0x00001260   0x00001260   0x00000018   Code   RO         1029    i.IRQ077_Handler    hc32f460_interrupts.o
+    0x00001278   0x00001278   0x00000018   Code   RO         1030    i.IRQ078_Handler    hc32f460_interrupts.o
+    0x00001290   0x00001290   0x00000018   Code   RO         1031    i.IRQ079_Handler    hc32f460_interrupts.o
+    0x000012a8   0x000012a8   0x00000018   Code   RO         1032    i.IRQ080_Handler    hc32f460_interrupts.o
+    0x000012c0   0x000012c0   0x00000018   Code   RO         1033    i.IRQ081_Handler    hc32f460_interrupts.o
+    0x000012d8   0x000012d8   0x00000018   Code   RO         1034    i.IRQ082_Handler    hc32f460_interrupts.o
+    0x000012f0   0x000012f0   0x00000018   Code   RO         1035    i.IRQ083_Handler    hc32f460_interrupts.o
+    0x00001308   0x00001308   0x00000018   Code   RO         1036    i.IRQ084_Handler    hc32f460_interrupts.o
+    0x00001320   0x00001320   0x00000018   Code   RO         1037    i.IRQ085_Handler    hc32f460_interrupts.o
+    0x00001338   0x00001338   0x00000018   Code   RO         1038    i.IRQ086_Handler    hc32f460_interrupts.o
+    0x00001350   0x00001350   0x00000018   Code   RO         1039    i.IRQ087_Handler    hc32f460_interrupts.o
+    0x00001368   0x00001368   0x00000018   Code   RO         1040    i.IRQ088_Handler    hc32f460_interrupts.o
+    0x00001380   0x00001380   0x00000018   Code   RO         1041    i.IRQ089_Handler    hc32f460_interrupts.o
+    0x00001398   0x00001398   0x00000018   Code   RO         1042    i.IRQ090_Handler    hc32f460_interrupts.o
+    0x000013b0   0x000013b0   0x00000018   Code   RO         1043    i.IRQ091_Handler    hc32f460_interrupts.o
+    0x000013c8   0x000013c8   0x00000018   Code   RO         1044    i.IRQ092_Handler    hc32f460_interrupts.o
+    0x000013e0   0x000013e0   0x00000018   Code   RO         1045    i.IRQ093_Handler    hc32f460_interrupts.o
+    0x000013f8   0x000013f8   0x00000018   Code   RO         1046    i.IRQ094_Handler    hc32f460_interrupts.o
+    0x00001410   0x00001410   0x00000018   Code   RO         1047    i.IRQ095_Handler    hc32f460_interrupts.o
+    0x00001428   0x00001428   0x00000018   Code   RO         1048    i.IRQ096_Handler    hc32f460_interrupts.o
+    0x00001440   0x00001440   0x00000018   Code   RO         1049    i.IRQ097_Handler    hc32f460_interrupts.o
+    0x00001458   0x00001458   0x00000018   Code   RO         1050    i.IRQ098_Handler    hc32f460_interrupts.o
+    0x00001470   0x00001470   0x00000018   Code   RO         1051    i.IRQ099_Handler    hc32f460_interrupts.o
+    0x00001488   0x00001488   0x00000018   Code   RO         1052    i.IRQ100_Handler    hc32f460_interrupts.o
+    0x000014a0   0x000014a0   0x00000018   Code   RO         1053    i.IRQ101_Handler    hc32f460_interrupts.o
+    0x000014b8   0x000014b8   0x00000018   Code   RO         1054    i.IRQ102_Handler    hc32f460_interrupts.o
+    0x000014d0   0x000014d0   0x00000018   Code   RO         1055    i.IRQ103_Handler    hc32f460_interrupts.o
+    0x000014e8   0x000014e8   0x00000018   Code   RO         1056    i.IRQ104_Handler    hc32f460_interrupts.o
+    0x00001500   0x00001500   0x00000018   Code   RO         1057    i.IRQ105_Handler    hc32f460_interrupts.o
+    0x00001518   0x00001518   0x00000018   Code   RO         1058    i.IRQ106_Handler    hc32f460_interrupts.o
+    0x00001530   0x00001530   0x00000018   Code   RO         1059    i.IRQ107_Handler    hc32f460_interrupts.o
+    0x00001548   0x00001548   0x00000018   Code   RO         1060    i.IRQ108_Handler    hc32f460_interrupts.o
+    0x00001560   0x00001560   0x00000018   Code   RO         1061    i.IRQ109_Handler    hc32f460_interrupts.o
+    0x00001578   0x00001578   0x00000018   Code   RO         1062    i.IRQ110_Handler    hc32f460_interrupts.o
+    0x00001590   0x00001590   0x00000018   Code   RO         1063    i.IRQ111_Handler    hc32f460_interrupts.o
+    0x000015a8   0x000015a8   0x00000018   Code   RO         1064    i.IRQ112_Handler    hc32f460_interrupts.o
+    0x000015c0   0x000015c0   0x00000018   Code   RO         1065    i.IRQ113_Handler    hc32f460_interrupts.o
+    0x000015d8   0x000015d8   0x00000018   Code   RO         1066    i.IRQ114_Handler    hc32f460_interrupts.o
+    0x000015f0   0x000015f0   0x00000018   Code   RO         1067    i.IRQ115_Handler    hc32f460_interrupts.o
+    0x00001608   0x00001608   0x00000018   Code   RO         1068    i.IRQ116_Handler    hc32f460_interrupts.o
+    0x00001620   0x00001620   0x00000018   Code   RO         1069    i.IRQ117_Handler    hc32f460_interrupts.o
+    0x00001638   0x00001638   0x00000018   Code   RO         1070    i.IRQ118_Handler    hc32f460_interrupts.o
+    0x00001650   0x00001650   0x00000018   Code   RO         1071    i.IRQ119_Handler    hc32f460_interrupts.o
+    0x00001668   0x00001668   0x00000018   Code   RO         1072    i.IRQ120_Handler    hc32f460_interrupts.o
+    0x00001680   0x00001680   0x00000018   Code   RO         1073    i.IRQ121_Handler    hc32f460_interrupts.o
+    0x00001698   0x00001698   0x00000018   Code   RO         1074    i.IRQ122_Handler    hc32f460_interrupts.o
+    0x000016b0   0x000016b0   0x00000018   Code   RO         1075    i.IRQ123_Handler    hc32f460_interrupts.o
+    0x000016c8   0x000016c8   0x00000018   Code   RO         1076    i.IRQ124_Handler    hc32f460_interrupts.o
+    0x000016e0   0x000016e0   0x00000018   Code   RO         1077    i.IRQ125_Handler    hc32f460_interrupts.o
+    0x000016f8   0x000016f8   0x00000018   Code   RO         1078    i.IRQ126_Handler    hc32f460_interrupts.o
+    0x00001710   0x00001710   0x00000018   Code   RO         1079    i.IRQ127_Handler    hc32f460_interrupts.o
+    0x00001728   0x00001728   0x00000020   Code   RO         2553    i.Key_init          key.o
+    0x00001748   0x00001748   0x0000002c   Code   RO         2554    i.Key_scan          key.o
+    0x00001774   0x00001774   0x00000024   Code   RO         2393    i.Led_init          led.o
+    0x00001798   0x00001798   0x0000000e   Code   RO         2394    i.Led_off           led.o
+    0x000017a6   0x000017a6   0x0000000e   Code   RO         2395    i.Led_on            led.o
+    0x000017b4   0x000017b4   0x00000008   Code   RO         1080    i.MemManage_Handler  hc32f460_interrupts.o
+    0x000017bc   0x000017bc   0x00000008   Code   RO         1081    i.NMI_Handler       hc32f460_interrupts.o
+    0x000017c4   0x000017c4   0x00000010   Code   RO          475    i.NMI_IrqHandler    hc32f460_exint_nmi_swi.o
+    0x000017d4   0x000017d4   0x00000020   Code   RO          351    i.PORT_GetBit       hc32f460_gpio.o
+    0x000017f4   0x000017f4   0x000000d4   Code   RO          353    i.PORT_Init         hc32f460_gpio.o
+    0x000018c8   0x000018c8   0x00000010   Code   RO          354    i.PORT_Lock         hc32f460_gpio.o
+    0x000018d8   0x000018d8   0x0000001c   Code   RO          357    i.PORT_ResetBits    hc32f460_gpio.o
+    0x000018f4   0x000018f4   0x0000001c   Code   RO          359    i.PORT_SetBits      hc32f460_gpio.o
+    0x00001910   0x00001910   0x00000058   Code   RO          360    i.PORT_SetFunc      hc32f460_gpio.o
+    0x00001968   0x00001968   0x00000010   Code   RO          364    i.PORT_Unlock       hc32f460_gpio.o
+    0x00001978   0x00001978   0x00000020   Code   RO         1862    i.PWC_Fcg1PeriphClockCmd  hc32f460_pwc.o
+    0x00001998   0x00001998   0x00000048   Code   RO         1871    i.PWC_HS2HP         hc32f460_pwc.o
+    0x000019e0   0x000019e0   0x00000008   Code   RO         1082    i.PendSV_Handler    hc32f460_interrupts.o
+    0x000019e8   0x000019e8   0x00000010   Code   RO          261    i.SRAM_CK_Disable   hc32f460_sram.o
+    0x000019f8   0x000019f8   0x00000010   Code   RO          262    i.SRAM_CK_Enable    hc32f460_sram.o
+    0x00001a08   0x00001a08   0x00000094   Code   RO          266    i.SRAM_Init         hc32f460_sram.o
+    0x00001a9c   0x00001a9c   0x00000010   Code   RO          267    i.SRAM_WT_Disable   hc32f460_sram.o
+    0x00001aac   0x00001aac   0x00000010   Code   RO          268    i.SRAM_WT_Enable    hc32f460_sram.o
+    0x00001abc   0x00001abc   0x00000008   Code   RO         1083    i.SVC_Handler       hc32f460_interrupts.o
+    0x00001ac4   0x00001ac4   0x00000134   Code   RO         2162    i.SetClkSyncBaudrate  hc32f460_usart.o
+    0x00001bf8   0x00001bf8   0x00000170   Code   RO         2163    i.SetScBaudrate     hc32f460_usart.o
+    0x00001d68   0x00001d68   0x00000174   Code   RO         2164    i.SetUartBaudrate   hc32f460_usart.o
+    0x00001edc   0x00001edc   0x00000008   Code   RO         1084    i.SysTick_Handler   hc32f460_interrupts.o
+    0x00001ee4   0x00001ee4   0x000000ec   Code   RO           13    i.SystemCoreClockUpdate  system_hc32f460.o
+    0x00001fd0   0x00001fd0   0x00000018   Code   RO           14    i.SystemInit        system_hc32f460.o
+    0x00001fe8   0x00001fe8   0x00000244   Code   RO         2168    i.USART_FuncCmd     hc32f460_usart.o
+    0x0000222c   0x0000222c   0x00000010   Code   RO         2178    i.USART_GetStatus   hc32f460_usart.o
+    0x0000223c   0x0000223c   0x0000000a   Code   RO         2181    i.USART_RecData     hc32f460_usart.o
+    0x00002246   0x00002246   0x0000000e   Code   RO         2183    i.USART_SendData    hc32f460_usart.o
+    0x00002254   0x00002254   0x00000068   Code   RO         2184    i.USART_SetBaudrate  hc32f460_usart.o
+    0x000022bc   0x000022bc   0x000002b0   Code   RO         2196    i.USART_UART_Init   hc32f460_usart.o
+    0x0000256c   0x0000256c   0x00000008   Code   RO         1085    i.UsageFault_Handler  hc32f460_interrupts.o
+    0x00002574   0x00002574   0x00000002   Code   RO         2438    i.Usart1TxIrqCallback  usart.o
+    0x00002576   0x00002576   0x00000002   PAD
+    0x00002578   0x00002578   0x000000fc   Code   RO         2439    i.Usart1_init       usart.o
+    0x00002674   0x00002674   0x00000002   Code   RO         2440    i.Usart2RxIrqCallback  usart.o
+    0x00002676   0x00002676   0x00000002   Code   RO         2441    i.Usart2TxIrqCallback  usart.o
+    0x00002678   0x00002678   0x000000fc   Code   RO         2442    i.Usart2_init       usart.o
+    0x00002774   0x00002774   0x00000034   Code   RO         2197    i.UsartGetClk       hc32f460_usart.o
+    0x000027a8   0x000027a8   0x0000002c   Code   RO         2443    i.Usart_SendStr     usart.o
+    0x000027d4   0x000027d4   0x0000001e   Code   RO         2444    i.Usart_SentByte    usart.o
+    0x000027f2   0x000027f2   0x00000002   PAD
+    0x000027f4   0x000027f4   0x0000001c   Code   RO         2445    i.__NVIC_ClearPendingIRQ  usart.o
+    0x00002810   0x00002810   0x00000022   Code   RO         2446    i.__NVIC_EnableIRQ  usart.o
+    0x00002832   0x00002832   0x00000002   PAD
+    0x00002834   0x00002834   0x00000028   Code   RO         2447    i.__NVIC_SetPriority  usart.o
+    0x0000285c   0x0000285c   0x00000004   Code   RO         2448    i._sys_exit         usart.o
+    0x00002860   0x00002860   0x00000088   Code   RO         1092    i.enIrqRegistration  hc32f460_interrupts.o
+    0x000028e8   0x000028e8   0x0000027c   Code   RO           85    i.main              main.o
+    0x00002b64   0x00002b64   0x0000000a   Code   RO         2700    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x00002b6e   0x00002b6e   0x00000002   PAD
+    0x00002b70   0x00002b70   0x00000020   Data   RO           86    .constdata          main.o
+    0x00002b90   0x00002b90   0x00000010   Data   RO         2198    .constdata          hc32f460_usart.o
+    0x00002ba0   0x00002ba0   0x00000015   Data   RO         2450    .constdata          usart.o
+    0x00002bb5   0x00002bb5   0x00000003   PAD
+    0x00002bb8   0x00002bb8   0x00000020   Data   RO         2756    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x1fff8000, Load base: 0x00002bd8, Size: 0x00000888, Max: 0x0002f000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x1fff8000   0x00002bd8   0x00000008   Data   RW           15    .data               system_hc32f460.o
+    0x1fff8008   0x00002be0   0x0000000b   Data   RW           87    .data               main.o
+    0x1fff8013   0x00002beb   0x00000001   PAD
+    0x1fff8014   0x00002bec   0x00000004   Data   RW          478    .data               hc32f460_exint_nmi_swi.o
+    0x1fff8018   0x00002bf0   0x00000008   Data   RW         2451    .data               usart.o
+    0x1fff8020   0x00002bf8   0x00000001   Data   RW         2555    .data               key.o
+    0x1fff8021   0x00002bf9   0x00000003   PAD
+    0x1fff8024        -       0x00000200   Zero   RW         1096    .bss                hc32f460_interrupts.o
+    0x1fff8224        -       0x00000060   Zero   RW         2632    .bss                c_w.l(libspace.o)
+    0x1fff8284   0x00002bf9   0x00000004   PAD
+    0x1fff8288        -       0x00000200   Zero   RW            2    HEAP                startup_hc32f460.o
+    0x1fff8488        -       0x00000400   Zero   RW            1    STACK               startup_hc32f460.o
+
